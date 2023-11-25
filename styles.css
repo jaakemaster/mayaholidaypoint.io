@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#logo{
+    margin:auto 1em;
+}
+#logo>img{
+    width:2em;
+    height:2em;
+    border-radius: 30%;
+}
+#logo-name{
+    height:4em;
+    width:20%;
+    display:flex;
+    font-size:large;
+}
+#hotel-name{
+    color:white;
+    line-height: 4em;
+}
+#navigation{
+    width:100%;
+    height:4em;
+    background-color: #151513;
+    display: flex;
+}
+#nav-links>ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-right: 30%;
+}
+#nav-links>ul>li>a{
+    text-decoration: none;
+    margin-right:3em;
+    color:#ffffff;
+}
+#nav-links{
+    width:80%;
+    margin-top:auto;
+    margin-bottom:auto;
+    float: right;
+    font-size: large;
+}
